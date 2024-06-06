@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 34);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 23px;
+        }
+
+        nav ul a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.15em;
+        }
+
+        nav ul a:hover {
+            color: blue;
+        }
+
+        main hr {
+            border: 0;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .first-section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 83px 0;
+        }
+
+        .first-section div {
+            width: 30%;
+        }
+
+        .left-section {
+            font-size: 2rem;
+        }
+
+        .left-section div {
+            width: 100%;
+        }
+
+        .purple {
+            color: rgb(167, 98, 231);
+        }
+
+        .rightsection img {
+            width: 80%;
+        }
+
+        #element {
+            color: rgb(167, 98, 231);
+        }
+
+        .second-section {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .second-section h1 {
+            font-size: 1.9rem;
+        }
+
+        .second-section .box {
+            background-color: white;
+            width: 71vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .second-section .vertical {
+            height: 75px;
+            width: 1px;
+            background-color: white;
+            margin: 0 80px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -30px;
+            left: -8px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75Px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+        footer{
+            background-color: #0e0e1a;
+            height: 223px;
+            width: 100%;
+        }
+        .footer{
+            height: 80%;
+            width: 100%;
+            /* background-color: #9c97f1; */
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .footer-first ul li{
+            list-style: none;
+        }
+        footer p{
+            text-align: center;
+            font-size: 20px;
+            margin-top: 12px;
+        }
+        .img{
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Shubham Portfolio</div>
+            <div class="right">
+                <ul>
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Services</a>
+                    <a href="">Project</a>
+                    <a href="">Contact Me</a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first-section">
+            <div class="left-section">
+                Hi, My name is <span class="purple"> Shubham</span>
+                <div>and I am a web passionate</div>
+                <!-- <div>Web Developer</div> -->
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="./logo/4.jpg" alt="" class="img">
+            </div>
+
+        </section>
+        <hr>
+        <section class="second-section">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="./logo/developer.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro repellendus iste odio quaerat,
+                        eum nulla veritatis illo! Dignissimos, minima fuga. Voluptas, consectetur.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./logo/pngwing.com (1).png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer Instagram (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro repellendus iste odio quaerat,
+                        eum nulla veritatis illo! Dignissimos, minima fuga. Voluptas, consectetur.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./logo/pngwing.com (2).png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer Facebook (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro repellendus iste odio quaerat,
+                        eum nulla veritatis illo! Dignissimos, minima fuga. Voluptas, consectetur.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./logo/pngwing.com (3).png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer Twitter (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro repellendus iste odio quaerat,
+                        eum nulla veritatis illo! Dignissimos, minima fuga. Voluptas, consectetur.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./logo/pngwing.com (4).png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer Youtube (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro repellendus iste odio quaerat,
+                        eum nulla veritatis illo! Dignissimos, minima fuga. Voluptas, consectetur.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./logo/pngwing.com(5).png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer Whatapps (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro repellendus iste odio quaerat,
+                        eum nulla veritatis illo! Dignissimos, minima fuga. Voluptas, consectetur.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-f">Shubham Portfolio</div>
+            <div class="footer-first">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-first">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-first">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <p>Copyright &#169; Shubham-portfolio.com | All right reserved</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Ethical Hacker', 'Network Engineer', 'Linux Admin'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
