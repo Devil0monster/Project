@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        /* navbar start  */
+        .container {
+            width: 100%;
+            height: 10%;
+            background-color: rgb(17, 17, 59);
+            display: flex;
+        }
+
+        .left {
+            height: 100%;
+            width: 50%;
+            /* background-color: aqua; */
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .left a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .right {
+            height: 100%;
+            width: 50%;
+            /* background-color: aquamarine; */
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .search-bar {
+            width: 70%;
+            height: 100%;
+            position: relative;
+        }
+
+        .search-bar img {
+            height: 30px;
+            width: 30px;
+            position: absolute;
+            top: 18px;
+            right: 10px;
+        }
+
+        .right input {
+            width: 100%;
+            height: 70%;
+            margin-top: 10px;
+            border: 0;
+            border-radius: 20px;
+            text-indent: 15px;
+            font-weight: 400;
+            font-size: 20px;
+        }
+
+        .img {
+            height: 45px;
+            width: 45px;
+            border: 2px solid white;
+            background-image: url(https://t3.ftcdn.net/jpg/04/50/03/16/360_F_450031665_lCn9pjQ6NuTTDZMnV8G8iIfNGqYaNMnw.jpg);
+            background-position: center;
+            background-size: cover;
+            background-color: black;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        /* Navbar end */
+        .main {
+            height: 70%;
+            width: 100%;
+            background-color:  rgb(88, 88, 114);
+            display: flex;
+        }
+
+         .main-left {
+            height: 100%;
+            width: 50%;
+            /* background-color: aquamarine; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .about{
+            height: 60%;
+            width: 70%;
+            /* background-color: bisque; */
+        }
+        .about .paragraph{
+            padding-top: 15px;
+        }
+        .read-me{
+            margin-top: 20px;
+            width: 30%;
+            height: 30px;
+            background-color: black;
+            color: white;
+        }
+        .social-logo img{
+            margin: 15px 0 0 15px;
+            height: 20px;
+            width: 20px;
+        }
+        .main .main-right {
+            height: 100%;
+            width: 50%;
+            /* background-color: azure; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .right-img{
+            width: 400px;
+        }
+
+        /* footer start */
+        footer {
+            height: 20%;
+            width: 100%;
+            background-color: rgb(102, 102, 114);
+        }
+
+        .box {
+            height: 80%;
+            width: 100%;
+            /* background-color: aquamarine; */
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .box .first a {
+            display: block;
+            text-decoration: none;
+            color: white;
+        }
+
+        .p {
+            text-align: center;
+            padding-top: 5px;
+        }
+      
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="left">
+            <a href="./home.html">Home</a>
+            <a href="./about.html">About</a>
+            <!-- <a href="#">Contact Us</a> -->
+            <a href="#">Services</a>
+            <a href="./login.html">Sign/login</a>
+        </nav>
+        <nav class="right">
+            <div class="search-bar">
+                <input type="text" placeholder="search">
+                <img src="./img/search.png" alt="">
+            </div>
+            <img src="" alt="" class="img">
+        </nav>
+    </div>
+    <div class="main">
+        <div class="main-left">
+            <div class="about">
+            <h1>ABOUT US</h1>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit.</p>
+            <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, est? Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nostrum quam placeat facilis molestiae dignissimos optio officia asperiores sint iusto.
+            </p>
+            <button class="read-me">Read Me</button>
+            <div class="social-logo">
+                <img src="./img/facebook.png" alt="">
+                <img src="./img/twitter.png" alt="">
+                <img src="./img/instagram.png" alt="">
+            </div>
+        </div>
+        </div>
+       
+        <div class="main-right">
+            <img src="https://media.gettyimages.com/id/1430286027/photo/information-technology-businessman-working-on-computer-in-office-for-digital-app-software.jpg?s=612x612&w=gi&k=20&c=04YDFQHhFeHdrfc9do_Ehf7y7HXg_2f4HOGa5-QZfXg=" alt="" class="right-img">
+        </div>
+    </div>
+    <footer>
+        <div class="box">
+            <div class="first">Web Developer</div>
+            <div class="first">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact Me</a>
+                <a href="#">Services</a>
+            </div>
+            <div class="first">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact Me</a>
+                <a href="#">Services</a>
+            </div>
+            <div class="first">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact Me</a>
+                <a href="#">Services</a>
+            </div>
+        </div>
+        <p class="p">Copyright &copy; WebDeveloper.com | All right reserved</p>
+    </footer>
+</body>
+
+</html>
